@@ -40,10 +40,10 @@
         "DDLStream": {
             "url": "https://ddlstreamitaly.co",
             "cookies": {
-                "ips4_device_key": "ab729dcc2b8b9f6eb4b708cb680aec26",
-                "ips4_IPSSessionFront": "2aa5e86bba766dfb230f90271c3c9ad3",
+                "ips4_device_key": "6961a9b9e4c507d52352df40dd28a988",
+                "ips4_IPSSessionFront": "95faa307ad513f74ba2ca8a7d9ec832d",
                 "ips4_member_id": "4029981",
-                "ips4_login_key": "0a9cdc7e4f70777f57786227518320ec"
+                "ips4_login_key": "fa4933619d6f1d62e54550c5ed01c5b0"
             },
             "enabled": "1"
         },
