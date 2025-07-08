@@ -18,8 +18,6 @@ mkdir -p "$backup_dir/.github/workflows"
 mkdir -p "$backup_dir/Dockerfiles"
 
 cp config.json "$backup_dir/config.json"
-cp docker-compose.yml "$backup_dir/docker-compose.yml"
-cp .env "$backup_dir/.env"
 cp update_domains.py "$backup_dir/update_domains.py"
 cp update_and_deploy.sh "$backup_dir/update_and_deploy.sh"
 cp .github/workflows/* "$backup_dir/.github/workflows/" 2>/dev/null || echo "⚠️ Nessun workflow da copiare"
@@ -33,8 +31,6 @@ git reset --hard upstream/main
 # Ripristino dei sopravvissuti
 echo "🧙‍♂️ Ripristino dei file sopravvissuti al massacro..."
 cp "$backup_dir/config.json" config.json
-cp "$backup_dir/docker-compose.yml" docker-compose.yml
-cp "$backup_dir/.env" .env
 cp "$backup_dir/update_domains.py" update_domains.py
 cp "$backup_dir/update_and_deploy.sh" update_and_deploy.sh
 mkdir -p .github/workflows
